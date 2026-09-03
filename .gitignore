@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# builds
+client/.next/
+client/out/
+client/dist/
+server/dist/
+
+# environment files -- NO trailing slashes, or git treats these as
+# directory names and happily commits your real .env file
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / os
+.DS_Store
+.vscode/
+
+# parked tutorial code, pending deletion -- never commit
+_to_delete/
+*.tutorial-backup
+*.tutorial-backup.*
+*tutorial-backup*
