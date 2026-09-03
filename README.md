@@ -7,6 +7,8 @@ Built for the operational reality that makes perishables hard: you never have
 "40 cases of salmon," you have three lots expiring on three different days, and
 which one you ship determines whether you make money or throw it away.
 
+![ColdChain dashboard — KPIs, revenue and waste trends, expiring-lot action list, and cold-chain status](docs/screenshot-dashboard.png)
+
 ---
 
 ## Attribution
